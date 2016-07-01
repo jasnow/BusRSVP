@@ -23,7 +23,7 @@ end
 
 # Environment Dependencies
 group :development, :test do
-  gem 'rspec-rails', '3.4.2' # LOCKED DOWN
+  gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'pry'
   #----------------
