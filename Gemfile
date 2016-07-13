@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 # Rails Dependencies
-gem 'rails', '4.2.7.rc1'
+gem 'rails', '4.2.7'
 gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
