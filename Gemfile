@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 # Rails Dependencies
-gem 'rails', '4.2.7'
+gem 'rails', '5.0.0'
+gem 'rails-controller-testing'
+
 gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
