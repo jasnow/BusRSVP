@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.0'
 
 # Rails Dependencies
-gem 'rails', '5.0.1.rc2'
+gem 'rails', '5.0.1'
 gem 'rails-controller-testing'
 
 gem 'sqlite3'
