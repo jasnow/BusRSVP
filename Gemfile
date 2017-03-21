@@ -3,8 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.0'
 
 # Rails Dependencies
-gem 'rails', '5.1.0.beta1'
-gem 'rails-controller-testing'
+gem 'rails', '5.1.0.rc1'
 
 gem 'sqlite3'
 gem 'sass-rails'
@@ -36,6 +35,7 @@ group :test do
   gem 'database_cleaner'
   gem 'faker'
   gem 'shoulda'
+  gem 'rails-controller-testing'
 end
 
 group :development do
