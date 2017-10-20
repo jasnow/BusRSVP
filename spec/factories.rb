@@ -1,7 +1,7 @@
 require 'faker'
-require 'factory_girl_rails'
+require 'factory_bot_rails'
 
-FactoryGirl.define do
+FactoryBot.define do
 
   factory :trip do
     name { "Bus to #{Faker::Address.city}" }
