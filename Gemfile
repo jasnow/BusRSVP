@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.2'
 
 # Rails Dependencies
-gem 'rails', '5.1.4'
+gem 'rails', '5.2.0.beta1'
 
 gem 'sqlite3'
 gem 'sass-rails'
