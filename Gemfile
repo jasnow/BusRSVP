@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.4.2'
+gem 'rails', '5.2.0.beta2'
 
-# Rails Dependencies
-gem 'rails', '5.2.0.beta1'
+ruby '2.4.2'
 
 gem 'sqlite3'
 gem 'sass-rails'
