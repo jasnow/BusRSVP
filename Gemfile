@@ -11,7 +11,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
-gem 'sdoc', '1.0.0.rc3', group: :doc # LOCKED DOWN
+gem 'sdoc', group: :doc
 
 # Clipboard Dependencies
 gem 'figaro'
