@@ -245,7 +245,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails
   sdoc
-  shoulda
+  shoulda (= 3.5.0)
   spring
   sqlite3
   turbolinks
