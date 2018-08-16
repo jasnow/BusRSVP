@@ -16,7 +16,7 @@ FactoryBot.define do
   end
 
   factory :user do
-    provider "Facebook"
+    provider { "Facebook" }
     uid { Faker::Number.number(10) }
     name { Faker::Name.name }
     oauth_token { Faker::Number.number(10) }

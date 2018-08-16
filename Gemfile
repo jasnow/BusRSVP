@@ -28,6 +28,8 @@ group :development, :test do
   gem 'pry'
   #----------------
   gem 'byebug'
+
+  gem 'rubocop-rspec'
 end
 
 group :test do
