@@ -265,7 +265,8 @@ DEPENDENCIES
   rubocop-rspec
   sass-rails
   sdoc
-  shoulda (= 3.5.0)
+  shoulda
+  shoulda-matchers (= 2.8.0)
   spring
   sqlite3
   turbolinks
