@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '5.2.2'
 
-ruby '2.5.0'
+ruby '2.5.3'
 
 gem 'sqlite3'
 gem 'sass-rails'
