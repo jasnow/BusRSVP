@@ -36,7 +36,7 @@ group :test do
   gem 'database_cleaner'
   gem 'faker'
   gem 'shoulda'
-  gem 'shoulda-matchers', '2.8.0' # LOCKED 9/26/2018
+  gem 'shoulda-matchers'
   gem 'rails-controller-testing'
 end
 
