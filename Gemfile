@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.0.0.beta1'
+gem 'rails', '6.0.0.beta3'
 
 ruby '2.6.2'
 
-gem 'sqlite3', '1.3.13' # 2/6/2019: LOCKED DOWN
+gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
@@ -23,7 +23,12 @@ end
 
 # Environment Dependencies
 group :development, :test do
-  gem 'rspec-rails'
+  # 3/22/2019: Modified following rspec section.
+  gem 'rspec-rails', git: 'https://github.com/rspec/rspec-rails', branch: '4-0-dev'
+  gem 'rspec-core', git: 'https://github.com/rspec/rspec-core'
+  gem 'rspec-mocks', git: 'https://github.com/rspec/rspec-mocks'
+  gem 'rspec-support', git: 'https://github.com/rspec/rspec-support'
+  gem 'rspec-expectations', git: 'https://github.com/rspec/rspec-expectations'
   gem 'factory_bot_rails'
   gem 'pry'
   #----------------
