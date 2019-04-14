@@ -1,5 +1,4 @@
 cache: bundler
-sudo: false
 
 language: ruby
 rvm: 2.6.2
