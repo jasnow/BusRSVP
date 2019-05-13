@@ -9,7 +9,7 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
+gem 'jbuilder'
 gem 'sdoc', group: :doc
 
 # Clipboard Dependencies
