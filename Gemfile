@@ -5,7 +5,7 @@ gem 'rails', '6.0.0.rc1'
 ruby '2.7.0'
 
 gem 'sqlite3'
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'turbolinks'
