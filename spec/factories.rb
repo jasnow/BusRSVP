@@ -5,8 +5,8 @@ FactoryBot.define do
 
   factory :trip do
     name { "Bus to #{Faker::Address.city}" }
-    description { Faker::Lorem.sentence }
-    passenger_limit { Faker::Number.number(2) }
+    description { Faker::Lorem.sentence(word_count: 1) }
+    passenger_limit { Faker::Number.number(digits: 2) }
     association :host, factory: :user
   end
 
@@ -17,8 +17,8 @@ FactoryBot.define do
 
   factory :user do
     provider { "Facebook" }
-    uid { Faker::Number.number(10) }
+    uid { Faker::Number.number(digits: 10) }
     name { Faker::Name.name }
-    oauth_token { Faker::Number.number(10) }
+    oauth_token { Faker::Number.number(digits: 10) }
   end
 end
