@@ -1,7 +1,7 @@
 cache: bundler
 
 language: ruby
-rvm: 2.7.0-preview1
+rvm: 2.7.0-preview3
 
 before_script: RAILS_ENV=test bundle exec rake db:migrate
 script:  bundle exec rspec
