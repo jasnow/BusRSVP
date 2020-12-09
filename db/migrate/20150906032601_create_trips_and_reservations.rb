@@ -1,4 +1,4 @@
-class CreateTripsAndReservations < ActiveRecord::Migration
+class CreateTripsAndReservations < ActiveRecord::Migration[5.2]
   def change
     create_table :trips do |t|
       t.string :name
