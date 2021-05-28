@@ -131,9 +131,9 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.7)
-    nokogiri (1.11.5-x86_64-darwin)
+    nokogiri (1.11.6-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.11.5-x86_64-linux)
+    nokogiri (1.11.6-x86_64-linux)
       racc (~> 1.4)
     oauth2 (1.4.7)
       faraday (>= 0.8, < 2.0)
@@ -223,7 +223,7 @@ GEM
       rubocop-ast (>= 1.5.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.5.0)
+    rubocop-ast (1.6.0)
       parser (>= 3.0.1.1)
     rubocop-rspec (2.3.0)
       rubocop (~> 1.0)
@@ -308,4 +308,4 @@ RUBY VERSION
    ruby 2.7.3p183
 
 BUNDLED WITH
-   2.2.17
+   2.2.18
