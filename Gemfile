@@ -6,7 +6,7 @@ ruby '2.7.3'
 
 gem 'sqlite3'
 gem 'sassc-rails'
-gem 'uglifier'
+gem 'terser'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
