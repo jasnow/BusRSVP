@@ -112,7 +112,7 @@ GEM
     ffi (1.15.4)
     figaro (1.2.0)
       thor (>= 0.14.0, < 2)
-    globalid (0.5.2)
+    globalid (0.6.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
     i18n (1.8.11)
@@ -310,7 +310,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 2.7.4p191
+   ruby 2.7.5p203
 
 BUNDLED WITH
    2.2.32
