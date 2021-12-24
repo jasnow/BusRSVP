@@ -163,6 +163,8 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    psych (4.0.3)
+      stringio
     racc (1.6.0)
     rack (2.2.3)
     rack-protection (2.1.0)
@@ -201,7 +203,8 @@ GEM
       thor (~> 1.0)
     rainbow (3.0.0)
     rake (13.0.6)
-    rdoc (6.3.3)
+    rdoc (6.4.0)
+      psych (>= 4.0.0)
     regexp_parser (2.2.0)
     rexml (3.2.5)
     rspec-core (3.10.1)
@@ -261,6 +264,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    stringio (3.0.1)
     terser (1.1.8)
       execjs (>= 0.3.0, < 3)
     thor (1.1.0)
@@ -314,4 +318,4 @@ RUBY VERSION
    ruby 2.7.5p203
 
 BUNDLED WITH
-   2.3.1
+   2.3.2
