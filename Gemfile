@@ -28,7 +28,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'pry'
   #----------------
-  gem 'byebug'
+  gem 'debug'
 
   gem 'rubocop-rspec'
 end
