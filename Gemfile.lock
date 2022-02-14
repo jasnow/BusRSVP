@@ -278,7 +278,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    sdoc (2.3.0)
+    sdoc (2.3.1)
       rdoc (>= 5.0, < 6.4.0)
     shoulda (4.0.0)
       shoulda-context (~> 2.0)
