@@ -178,7 +178,7 @@ GEM
       stringio
     racc (1.6.0)
     rack (2.2.4)
-    rack-protection (2.2.2)
+    rack-protection (3.0.1)
       rack
     rack-test (2.0.2)
       rack (>= 1.3)
