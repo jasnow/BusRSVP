@@ -1,7 +1,7 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe Reservation, type: :model do
-  it 'has a valid factory' do
+  it "has a valid factory" do
     expect(FactoryBot.build(:reservation)).to be_valid
   end
 

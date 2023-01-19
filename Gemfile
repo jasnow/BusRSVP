@@ -1,47 +1,49 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rails', '7.0.4.1'
+gem "rails", "7.0.4.1"
 
-ruby '3.2.0'
+ruby "3.2.0"
 
-gem 'sqlite3'
-gem 'sassc-rails'
-gem 'terser'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder'
-gem 'sdoc', group: :doc
+gem "sqlite3"
+gem "sassc-rails"
+gem "terser"
+gem "jquery-rails"
+gem "turbolinks"
+gem "jbuilder"
+gem "sdoc", group: :doc
 
 # Clipboard Dependencies
-gem 'figaro'
-gem 'omniauth-facebook'
+gem "figaro"
+gem "omniauth-facebook"
 
-source 'https://rails-assets.org' do
-  gem 'rails-assets-berniestrap'
+source "https://rails-assets.org" do
+  gem "rails-assets-berniestrap"
 end
 
 # Environment Dependencies
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_bot_rails'
-  gem 'pry'
+  gem "rspec-rails"
+  gem "factory_bot_rails"
+  gem "pry"
   #----------------
-  gem 'debug'
+  gem "debug"
 
-  gem 'rubocop-rspec'
+  gem "rubocop-rspec"
+
+  gem "standard"
 end
 
 group :test do
-  gem 'database_cleaner'
-  gem 'faker'
-  gem 'shoulda'
-  gem 'shoulda-matchers'
-  gem 'rails-controller-testing'
+  gem "database_cleaner"
+  gem "faker"
+  gem "shoulda"
+  gem "shoulda-matchers"
+  gem "rails-controller-testing"
 end
 
 group :development do
-  gem 'web-console'
-  gem 'spring'
+  gem "web-console"
+  gem "spring"
 end
 
 # Use ActiveModel has_secure_password

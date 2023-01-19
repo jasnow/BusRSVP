@@ -1,8 +1,7 @@
-require 'faker'
-require 'factory_bot_rails'
+require "faker"
+require "factory_bot_rails"
 
 FactoryBot.define do
-
   factory :trip do
     name { "Bus to #{Faker::Address.city}" }
     description { Faker::Lorem.sentence(word_count: 1) }
