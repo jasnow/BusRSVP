@@ -15,6 +15,7 @@ gem "sdoc", group: :doc
 # Clipboard Dependencies
 gem "figaro"
 gem "omniauth-facebook"
+gem "webrick"
 
 source "https://rails-assets.org" do
   gem "rails-assets-berniestrap"
