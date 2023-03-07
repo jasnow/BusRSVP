@@ -1,3 +1,12 @@
+require 'simplecov'
+if ENV["COVERAGE"]
+  SimpleCov.start 'rails' do
+    puts "Adding simplecov"
+    enable_coverage :branch
+    primary_coverage :branch
+  end
+end
+
 ENV["RAILS_ENV"] ||= "test"
 require "spec_helper"
 require File.expand_path("../../config/environment", __FILE__)

@@ -55,3 +55,5 @@ end
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'simplecov', require: false, group: :test
