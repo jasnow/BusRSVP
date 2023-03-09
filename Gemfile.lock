@@ -3,7 +3,7 @@ GEM
   specs:
     rails-assets-berniestrap (3.3.5)
       rails-assets-jquery (>= 1.9.1)
-    rails-assets-jquery (3.6.3)
+    rails-assets-jquery (3.6.4)
 
 GEM
   remote: https://rubygems.org/
@@ -394,4 +394,4 @@ RUBY VERSION
    ruby 3.2.1p31
 
 BUNDLED WITH
-   2.4.7
+   2.4.8
