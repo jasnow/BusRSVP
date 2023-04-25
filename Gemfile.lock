@@ -171,7 +171,7 @@ GEM
       oauth2 (>= 1.4, < 3)
       omniauth (~> 2.0)
     parallel (1.23.0)
-    parser (3.2.2.0)
+    parser (3.2.2.1)
       ast (~> 2.4.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -181,7 +181,7 @@ GEM
     psych (5.1.0)
       stringio
     racc (1.6.2)
-    rack (2.2.6.4)
+    rack (2.2.7)
     rack-protection (3.0.6)
       rack
     rack-test (2.1.0)
