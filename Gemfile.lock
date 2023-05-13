@@ -3,7 +3,7 @@ GEM
   specs:
     rails-assets-berniestrap (3.3.5)
       rails-assets-jquery (>= 1.9.1)
-    rails-assets-jquery (3.6.4)
+    rails-assets-jquery (3.7.0)
 
 GEM
   remote: https://rubygems.org/
@@ -150,9 +150,9 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.14.3-x86_64-darwin)
+    nokogiri (1.14.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.3-x86_64-linux)
+    nokogiri (1.14.4-x86_64-linux)
       racc (~> 1.4)
     oauth2 (2.0.9)
       faraday (>= 0.17.3, < 3.0)
@@ -336,7 +336,7 @@ GEM
     temple (0.10.0)
     terser (1.1.15)
       execjs (>= 0.3.0, < 3)
-    thor (1.2.1)
+    thor (1.2.2)
     tilt (2.1.0)
     timeout (0.3.2)
     tty-color (0.6.0)
