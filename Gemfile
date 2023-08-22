@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rails", "7.0.7"
 
-ruby "3.3.0.preview1"
+ruby File.read(".ruby-version")
 
 gem "sqlite3"
 gem "sassc-rails"
