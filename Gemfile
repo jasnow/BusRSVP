@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "7.1.0.rc2"
+gem "rails", "7.1.0"
 
 ruby File.read(".ruby-version")
 
