@@ -2,11 +2,10 @@ source "https://rubygems.org"
 
 gem "rails", "7.1.0"
 
+
 ruby File.read(".ruby-version")
 
-gem 'bigdecimal'
-gem 'mutex_m'
-gem 'observer'
+gem "observer"
 
 gem "sqlite3"
 gem "sassc-rails"
