@@ -146,7 +146,7 @@ GEM
     jwt (2.7.1)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
-    loofah (2.21.4)
+    loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -161,7 +161,7 @@ GEM
     minitest (5.20.0)
     multi_xml (0.6.0)
     mutex_m (0.2.0)
-    net-imap (0.4.4)
+    net-imap (0.4.5)
       date
       net-protocol
     net-pop (0.1.2)
@@ -170,7 +170,7 @@ GEM
       timeout
     net-smtp (0.4.0)
       net-protocol
-    nio4r (2.5.9)
+    nio4r (2.6.0)
     nokogiri (1.15.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -339,7 +339,7 @@ GEM
       tty-spinner
       tty-table
       zeitwerk (>= 2.6)
-    spring (4.1.1)
+    spring (4.1.2)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
