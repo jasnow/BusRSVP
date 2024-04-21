@@ -7,7 +7,7 @@ ruby File.read(".ruby-version")
 
 gem "observer"
 
-gem "sqlite3"
+gem "sqlite3", "~> 1.4"
 gem "sassc-rails"
 gem "terser"
 gem "jquery-rails"
