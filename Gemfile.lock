@@ -111,13 +111,14 @@ GEM
     factory_bot_rails (6.4.3)
       factory_bot (~> 6.4)
       railties (>= 5.0.0)
-    faker (3.4.1)
+    faker (3.4.2)
       i18n (>= 1.8.11, < 2)
     faraday (2.10.0)
       faraday-net_http (>= 2.0, < 3.2)
       logger
     faraday-net_http (3.1.0)
       net-http
+    ffi (1.17.0)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux-gnu)
@@ -167,6 +168,7 @@ GEM
     marcel (1.0.4)
     method_source (1.1.0)
     mini_mime (1.1.5)
+    mini_portile2 (2.8.7)
     minitest (5.24.1)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
@@ -183,6 +185,9 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.3)
+    nokogiri (1.16.6)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.16.6-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.6-arm-linux)
@@ -276,7 +281,7 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.9)
       io-console (~> 0.5)
-    rexml (3.3.1)
+    rexml (3.3.2)
       strscan
     rspec-core (3.13.0)
       rspec-support (~> 3.13.0)
@@ -365,13 +370,15 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
+    sqlite3 (1.7.3)
+      mini_portile2 (~> 2.8.0)
     sqlite3 (1.7.3-aarch64-linux)
     sqlite3 (1.7.3-arm-linux)
     sqlite3 (1.7.3-arm64-darwin)
     sqlite3 (1.7.3-x86-linux)
     sqlite3 (1.7.3-x86_64-darwin)
     sqlite3 (1.7.3-x86_64-linux)
-    standard (1.39.1)
+    standard (1.39.2)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
       rubocop (~> 1.64.0)
@@ -434,6 +441,7 @@ PLATFORMS
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin
+  ruby
   x86-linux
   x86-linux-gnu
   x86-linux-musl
@@ -476,4 +484,4 @@ RUBY VERSION
    ruby 3.3.2p78
 
 BUNDLED WITH
-   2.5.15
+   2.5.16
