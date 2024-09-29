@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "rails", "7.1.4"
-
+gem "ostruct"
 
 ruby File.read(".ruby-version")
 
